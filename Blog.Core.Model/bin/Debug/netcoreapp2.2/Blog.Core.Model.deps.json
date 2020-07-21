@@ -1,0 +1,171 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "Blog.Core.Model/1.0.0": {
+        "dependencies": {
+          "Blog.Core.Common": "1.0.0",
+          "sqlSugarCore": "5.0.0.15"
+        },
+        "runtime": {
+          "Blog.Core.Model.dll": {}
+        }
+      },
+      "Google.Protobuf/3.5.1": {
+        "runtime": {
+          "lib/netstandard1.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.5.1.0",
+            "fileVersion": "3.5.1.0"
+          }
+        }
+      },
+      "MySql.Data/8.0.15": {
+        "dependencies": {
+          "Google.Protobuf": "3.5.1",
+          "System.Configuration.ConfigurationManager": "4.4.1"
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/MySql.Data.dll": {
+            "assemblyVersion": "8.0.15.0",
+            "fileVersion": "8.0.15.0"
+          }
+        }
+      },
+      "Npgsql/3.2.7": {
+        "runtime": {
+          "lib/netstandard2.0/Npgsql.dll": {
+            "assemblyVersion": "3.2.7.0",
+            "fileVersion": "3.2.7.0"
+          }
+        }
+      },
+      "Oracle.ManagedDataAccess.Core/2.18.3": {
+        "runtime": {
+          "lib/netstandard2.0/Oracle.ManagedDataAccess.dll": {
+            "assemblyVersion": "2.0.18.3",
+            "fileVersion": "2.0.18.3"
+          }
+        }
+      },
+      "sqlSugarCore/5.0.0.15": {
+        "dependencies": {
+          "MySql.Data": "8.0.15",
+          "Npgsql": "3.2.7",
+          "Oracle.ManagedDataAccess.Core": "2.18.3",
+          "System.Data.Common": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SqlSugar.dll": {
+            "assemblyVersion": "5.0.0.15",
+            "fileVersion": "5.0.0.15"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.4.1": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.25921.2"
+          }
+        }
+      },
+      "System.Data.Common/4.3.0": {},
+      "System.Security.Cryptography.ProtectedData/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
+      "Blog.Core.Common/1.0.0": {
+        "runtime": {
+          "Blog.Core.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Blog.Core.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Protobuf/3.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f2k1VNaB9bfvEsvARzzEL1TZiIpL33KKK3JMH7UANlPlJVptuvsk4qpBZEnz0pORWZOdUHlVwMQuUzFqjJYCxA==",
+      "path": "google.protobuf/3.5.1",
+      "hashPath": "google.protobuf.3.5.1.nupkg.sha512"
+    },
+    "MySql.Data/8.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PnjT2+TzlYUBF5cILcLMD1ux85P5iiRTF9PWx+Mel6/Z/rx+k39aWuA0mozfdgd+0TlJjGKKTyQZfKeYlRXTUA==",
+      "path": "mysql.data/8.0.15",
+      "hashPath": "mysql.data.8.0.15.nupkg.sha512"
+    },
+    "Npgsql/3.2.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CxSXzWn/MNbHX8L1xfQSzrZfJEA2Yt5cvT27Az5abmvbqtUY1ab6xAkmBj5FfLyKCIYEnmSrxn1IY1+Jy13oFA==",
+      "path": "npgsql/3.2.7",
+      "hashPath": "npgsql.3.2.7.nupkg.sha512"
+    },
+    "Oracle.ManagedDataAccess.Core/2.18.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YaN+rm9wgFQAuWxrrR7lUxEQI4WJnNkMTlZb+gbv2W4D/ML2kkgz4N8Z76W9Polx6BU+kK3Vx2R8RD9u7sea7g==",
+      "path": "oracle.manageddataaccess.core/2.18.3",
+      "hashPath": "oracle.manageddataaccess.core.2.18.3.nupkg.sha512"
+    },
+    "sqlSugarCore/5.0.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FqrEwUmBHQlFVpuQdBUeqJkznDFRA4oW3UJUGt2n2g1w74NhBfG3uwhvIK3WKjm17awHgpBJXtAKRN3N/3LpUQ==",
+      "path": "sqlsugarcore/5.0.0.15",
+      "hashPath": "sqlsugarcore.5.0.0.15.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jz3TWKMAeuDEyrPCK5Jyt4bzQcmzUIMcY9Ud6PkElFxTfnsihV+9N/UCqvxe1z5gc7jMYAnj7V1COMS9QKIuHQ==",
+      "path": "system.configuration.configurationmanager/4.4.1",
+      "hashPath": "system.configuration.configurationmanager.4.4.1.nupkg.sha512"
+    },
+    "System.Data.Common/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lm6E3T5u7BOuEH0u18JpbJHxBfOJPuCyl4Kg1RH10ktYLp5uEEE1xKrHW56/We4SnZpGAuCc9N0MJpSDhTHZGQ==",
+      "path": "system.data.common/4.3.0",
+      "hashPath": "system.data.common.4.3.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cJV7ScGW7EhatRsjehfvvYVBvtiSMKgN8bOVI0bQhnF5bU7vnHVIsH49Kva7i7GWaWYvmEzkYVk1TC+gZYBEog==",
+      "path": "system.security.cryptography.protecteddata/4.4.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
+    },
+    "Blog.Core.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

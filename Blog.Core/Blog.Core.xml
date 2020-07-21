@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Blog.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Blog.Core.AOP.BlogCacheAOP">
+            <summary>
+            面向切面的缓存使用
+            </summary>
+        </member>
+        <member name="T:Blog.Core.AOP.BlogLogAOP">
+            <summary>
+            拦截器BlogAOP ,继承IInterceptor 
+            面向切面的日志使用
+            </summary>
+        </member>
+        <member name="M:Blog.Core.AOP.BlogLogAOP.Intercept(Castle.DynamicProxy.IInvocation)">
+            <summary>
+            实例化IInterceptor唯一方法
+            </summary>
+            <param name="invocation">包含被拦截的方法信息</param>
+        </member>
+        <member name="M:Blog.Core.AOP.BlogLogAOP.IsAsyncMethod(System.Reflection.MethodInfo)">
+            <summary>
+            是否为异步方法
+            </summary>
+            <param name="method">MethodInfo</param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.AOP.CacheAOPBase.Intercept(Castle.DynamicProxy.IInvocation)">
+            <summary>
+            AOP的拦截方法
+            </summary>
+            <param name="invocation"></param>
+        </member>
+        <member name="M:Blog.Core.AOP.CacheAOPBase.CustomCacheKey(Castle.DynamicProxy.IInvocation)">
+            <summary>
+            自定义缓存key
+            </summary>
+            <param name="invocation"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.AOP.CacheAOPBase.GetArgumentValue(System.Object)">
+            <summary>
+            object 转 string
+            </summary>
+            <param name="arg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.AOP.CacheAOPBase.GetOperator(System.Linq.Expressions.ExpressionType)">
+            <summary>
+            节点类型种类
+            </summary>
+            <param name="expressionType">表达式类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.AuthHelper.OverWrite.JwtHelper.IssueJwt(Blog.Core.AuthHelper.OverWrite.TokenModelJwt)">
+            <summary>
+            颁发JWT字符串
+            </summary>
+            <param name="tokenModelJwt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.AuthHelper.OverWrite.JwtHelper.SerializeJwt(System.String)">
+            <summary>
+            解析令牌
+            </summary>
+            <param name="jwtStr"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Blog.Core.AuthHelper.OverWrite.TokenModelJwt">
+            <summary>
+            令牌
+            </summary>
+        </member>
+        <member name="P:Blog.Core.AuthHelper.OverWrite.TokenModelJwt.Uid">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:Blog.Core.AuthHelper.OverWrite.TokenModelJwt.Role">
+            <summary>
+            角色
+            </summary>
+        </member>
+        <member name="P:Blog.Core.AuthHelper.OverWrite.TokenModelJwt.Work">
+            <summary>
+            职能
+            </summary>
+        </member>
+        <member name="M:Blog.Core.Controllers.BlogArticleController.GetBlogs">
+            <summary>
+            根据id获取数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Controllers.BlogController.#ctor(Blog.Core.IServices.IAdvertisementServices)">
+            <summary>
+            采用构造函数注入services
+            其他还有通过setter方法，接口方法注入
+            </summary>
+        </member>
+        <member name="M:Blog.Core.Controllers.BlogController.Get(System.Int32)">
+            <summary>
+            根据id获取数据
+            </summary>
+            <param name="id">id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Controllers.LoginController.GetJwtStr(System.String,System.String)">
+            <summary>
+            获取token码
+            </summary>
+            <param name="name"></param>
+            <param name="pass"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Blog.Core.Controllers.ValuesController">
+            <summary>
+            自动生成API
+            </summary>
+        </member>
+        <member name="M:Blog.Core.Controllers.ValuesController.Get">
+            <summary>
+            获取分页的数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            获取{id}的对象信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Controllers.ValuesController.Ignore(System.Int32)">
+            <summary>
+            这是要隐藏的接口
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Blog.Core.Extensions.SqlsugarSetup">
+            <summary>
+            SqlSugar 启动服务
+            </summary>
+        </member>
+        <member name="M:Blog.Core.Extensions.SqlsugarSetup.AddSqlsugarSetup(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            services的扩展方法，用于实现Sqlsugar的依赖注入
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Blog.Core.Program.CreateWebHostBuilder(System.String[])">
+            <summary>
+            安装aspnetcore.server.iisintrgration 来使用iisintegration 配置反向代理
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="configuration"></param>
+        </member>
+    </members>
+</doc>

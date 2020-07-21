@@ -1,0 +1,2 @@
+20200609112935 当前执行方法：Query 参数是： d => (d.Id == value(Blog.Core.Controllers.BlogController+<>c__DisplayClass2_0).id) 
+被拦截方法执行完毕，返回结果：System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.Collections.Generic.List`1[Blog.Core.Model.Models.Advertisement],Blog.Core.Services.BASE.BaseServices`1+<Query>d__10[Blog.Core.Model.Models.Advertisement]]

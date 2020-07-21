@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Blog.Core.Model</name>
+    </assembly>
+    <members>
+        <member name="T:Blog.Core.Model.MessageModel`1">
+            <summary>
+            通用返回信息类
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.MessageModel`1.Success">
+            <summary>
+            操作是否相同
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.MessageModel`1.Msg">
+            <summary>
+            返回信息
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.MessageModel`1.Data">
+            <summary>
+            返回数据类型
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Models.Advertisement.Createdate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:Blog.Core.Model.Models.BlogArticle">
+            <summary>
+            博客文章
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Models.BlogArticle.bID">
+            <summary>
+            主键
+            </summary>
+            这里之所以没用RootEntity，是想保持和之前的数据库一致，主键是bID，不是Id
+        </member>
+        <member name="P:Blog.Core.Model.Models.BlogArticle.bsubmitter">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Models.BlogArticle.btitle">
+            <summary>
+            标题blog
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Models.BlogArticle.bcategory">
+            <summary>
+            类别
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Models.BlogArticle.bcontent">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Models.BlogArticle.btraffic">
+            <summary>
+            访问量
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Models.BlogArticle.bcommentNum">
+            <summary>
+            评论数量
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Models.BlogArticle.bUpdateTime">
+            <summary> 
+            修改时间
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Models.BlogArticle.bCreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Models.BlogArticle.bRemark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Models.BlogArticle.IsDeleted">
+            <summary>
+            逻辑删除
+            </summary>
+        </member>
+        <member name="T:Blog.Core.Model.PageModel`1">
+            <summary>
+            通用分页信息类
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:Blog.Core.Model.PageModel`1.page">
+            <summary>
+            当前页标
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.PageModel`1.pageCount">
+            <summary>
+            总页数
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.PageModel`1.dataCount">
+            <summary>
+            数据总数
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.PageModel`1.PageSize">
+            <summary>
+            每页大小
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.PageModel`1.data">
+            <summary>
+            返回数据
+            </summary>
+        </member>
+        <member name="T:Blog.Core.Model.TableModel`1">
+            <summary>
+            表格数据，支持分页
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.TableModel`1.Code">
+            <summary>
+            返回编码
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.TableModel`1.Msg">
+            <summary>
+            返回信息
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.TableModel`1.Count">
+            <summary>
+            记录总数
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.TableModel`1.Data">
+            <summary>
+            返回数据集
+            </summary>
+        </member>
+        <member name="T:Blog.Core.Model.ViewModels.AdvertisementViewModels">
+            <summary>
+            广告类
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.ViewModels.AdvertisementViewModels.Id">
+            <summary>
+            分类ID
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.ViewModels.AdvertisementViewModels.Createdate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.ViewModels.AdvertisementViewModels.ImgUrl">
+            <summary>
+            广告图片
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.ViewModels.AdvertisementViewModels.Title">
+            <summary>
+            广告标题
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.ViewModels.AdvertisementViewModels.Url">
+            <summary>
+            广告链接
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.ViewModels.AdvertisementViewModels.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+    </members>
+</doc>

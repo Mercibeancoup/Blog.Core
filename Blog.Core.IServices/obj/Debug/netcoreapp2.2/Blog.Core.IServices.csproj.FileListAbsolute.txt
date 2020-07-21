@@ -1,0 +1,14 @@
+D:\vs\repos\Blog.Core\Blog.Core.IServices\bin\Debug\netcoreapp2.2\Blog.Core.IServices.deps.json
+D:\vs\repos\Blog.Core\Blog.Core.IServices\bin\Debug\netcoreapp2.2\Blog.Core.IServices.dll
+D:\vs\repos\Blog.Core\Blog.Core.IServices\bin\Debug\netcoreapp2.2\Blog.Core.IServices.pdb
+D:\vs\repos\Blog.Core\Blog.Core.IServices\obj\Debug\netcoreapp2.2\Blog.Core.IServices.csprojAssemblyReference.cache
+D:\vs\repos\Blog.Core\Blog.Core.IServices\obj\Debug\netcoreapp2.2\Blog.Core.IServices.AssemblyInfoInputs.cache
+D:\vs\repos\Blog.Core\Blog.Core.IServices\obj\Debug\netcoreapp2.2\Blog.Core.IServices.AssemblyInfo.cs
+D:\vs\repos\Blog.Core\Blog.Core.IServices\obj\Debug\netcoreapp2.2\Blog.Core.IServices.dll
+D:\vs\repos\Blog.Core\Blog.Core.IServices\obj\Debug\netcoreapp2.2\Blog.Core.IServices.pdb
+D:\vs\repos\Blog.Core\Blog.Core.IServices\bin\Debug\netcoreapp2.2\Blog.Core.Model.dll
+D:\vs\repos\Blog.Core\Blog.Core.IServices\bin\Debug\netcoreapp2.2\Blog.Core.Model.pdb
+D:\vs\repos\Blog.Core\Blog.Core.IServices\bin\Debug\netcoreapp2.2\Blog.Core.Model.xml
+D:\vs\repos\Blog.Core\Blog.Core.IServices\obj\Debug\netcoreapp2.2\Blog.Core.IServices.csproj.CopyComplete
+D:\vs\repos\Blog.Core\Blog.Core.IServices\bin\Debug\netcoreapp2.2\Blog.Core.Common.dll
+D:\vs\repos\Blog.Core\Blog.Core.IServices\bin\Debug\netcoreapp2.2\Blog.Core.Common.pdb

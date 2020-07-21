@@ -1,0 +1,1 @@
+﻿server=localhost;user=root;pwd=root;database=blogdb

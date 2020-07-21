@@ -1,0 +1,3 @@
+D:\vs\repos\Blog.Core\Blog.Core.FrameWork\obj\Debug\netcoreapp2.1\Blog.Core.FrameWork.csprojAssemblyReference.cache
+D:\vs\repos\Blog.Core\Blog.Core.FrameWork\obj\Debug\netcoreapp2.1\Blog.Core.FrameWork.AssemblyInfoInputs.cache
+D:\vs\repos\Blog.Core\Blog.Core.FrameWork\obj\Debug\netcoreapp2.1\Blog.Core.FrameWork.AssemblyInfo.cs

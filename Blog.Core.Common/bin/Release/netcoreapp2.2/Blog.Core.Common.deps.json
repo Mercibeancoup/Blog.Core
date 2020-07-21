@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "Blog.Core.Common/1.0.0": {
+        "runtime": {
+          "Blog.Core.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Blog.Core.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

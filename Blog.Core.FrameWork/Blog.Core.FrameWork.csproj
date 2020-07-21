@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DbHelper.ttinclude" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="DbHelper.ttinclude" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Blog.Core.FrameWork.Entity\Blog.Core.FrameWork.Entity.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Blog.Core.FrameWork.Entity.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Blog.Core.FrameWork.Entity\Blog.Core.FrameWork.Entity.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Blog.Core.FrameWork.Entity.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

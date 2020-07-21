@@ -1,0 +1,10 @@
+D:\vs\repos\Blog.Core\Blog.Core.Common\bin\Release\netcoreapp2.2\Blog.Core.Common.deps.json
+D:\vs\repos\Blog.Core\Blog.Core.Common\bin\Release\netcoreapp2.2\Blog.Core.Common.runtimeconfig.json
+D:\vs\repos\Blog.Core\Blog.Core.Common\bin\Release\netcoreapp2.2\Blog.Core.Common.runtimeconfig.dev.json
+D:\vs\repos\Blog.Core\Blog.Core.Common\bin\Release\netcoreapp2.2\Blog.Core.Common.dll
+D:\vs\repos\Blog.Core\Blog.Core.Common\bin\Release\netcoreapp2.2\Blog.Core.Common.pdb
+D:\vs\repos\Blog.Core\Blog.Core.Common\obj\Release\netcoreapp2.2\Blog.Core.Common.csprojAssemblyReference.cache
+D:\vs\repos\Blog.Core\Blog.Core.Common\obj\Release\netcoreapp2.2\Blog.Core.Common.AssemblyInfoInputs.cache
+D:\vs\repos\Blog.Core\Blog.Core.Common\obj\Release\netcoreapp2.2\Blog.Core.Common.AssemblyInfo.cs
+D:\vs\repos\Blog.Core\Blog.Core.Common\obj\Release\netcoreapp2.2\Blog.Core.Common.dll
+D:\vs\repos\Blog.Core\Blog.Core.Common\obj\Release\netcoreapp2.2\Blog.Core.Common.pdb
